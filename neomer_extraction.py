@@ -335,7 +335,6 @@ def main(args):
 
     if not os.path.exists(NEOMERS_OUTPUT_DIR):
         os.makedirs(NEOMERS_OUTPUT_DIR)
-    if 
     output_file = f"{NEOMERS_OUTPUT_DIR}/{K}_neomers_output.txt"
     print(f"[main] Merging all worker output files into {output_file}")
 
